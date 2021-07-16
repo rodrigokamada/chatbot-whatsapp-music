@@ -1,6 +1,6 @@
 # WhatsApp chatbot using Node.js
 
-Example application using [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript) and [Node.js](https://nodejs.org/) where a simple chatbot will be implemented using the [Zenvia](https://www.zenvia.com/) platform to integrate with WhatsApp and the [AudD](https://audd.io/) platform to integrate with recognize music in order to test some WhatsApp Business API features such as sending and receiving text and file (image and audio) messages. 
+Example application using [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript) and [Node.js](https://nodejs.org/) where a simple chatbot will be implemented using the [Zenvia](https://www.zenvia.com/) platform to integrate with WhatsApp and the [AudD](https://audd.io/) platform to integrate with music recognize in order to test some WhatsApp Business API features such as sending and receiving text and file (image and audio) messages. 
 
 
 
