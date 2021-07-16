@@ -1,0 +1,26 @@
+{
+  "name": "chatbot-whatsapp",
+  "version": "1.0.0",
+  "description": "WhatsApp chatbot using Node.js",
+  "homepage": "https://github.com/rodrigokamada/chatbot-whatsapp#readme",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Rodrigo Kamada <rodrigo@kamada.com.br> (https://github.com/rodrigokamada)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigokamada/chatbot-whatsapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodrigokamada/chatbot-whatsapp/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@zenvia/sdk": "^2.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "got": "^11.8.2"
+  }
+}
