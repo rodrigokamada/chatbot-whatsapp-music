@@ -18,7 +18,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@zenvia/sdk": "^2.1.0",
+    "@zenvia/sdk": "^2.4.4",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "got": "^11.8.2"
