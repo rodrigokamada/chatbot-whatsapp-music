@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@zenvia/sdk": "^2.4.4",
-    "dotenv": "^10.0.0",
+    "dotenv": "^16.0.2",
     "express": "^4.17.1",
     "got": "^11.8.2"
   }
