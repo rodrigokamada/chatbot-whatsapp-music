@@ -12,7 +12,7 @@ const whatsapp = client.getChannel('whatsapp');
 const webhook = new WebhookController({
   channel: 'whatsapp',
   messageEventHandler: async (messageEvent) => {
-    let content = [new TextContent('Testado')];
+    let content = [new TextContent('Tested')];
 
     if (messageEvent.message.contents[0].type === 'file' && messageEvent.message.contents[0].fileMimeType.includes('audio')) {
       const music = await recognizeMusic(messageEvent.message.contents[0].fileUrl);
@@ -20,13 +20,13 @@ const webhook = new WebhookController({
       if (music) {
         let text = '';
         if (music.artist) {
-          text = `${text}Artista: *${music.artist}*\n`;
+          text = `${text}Artist: *${music.artist}*\n`;
         }
         if (music.title) {
-          text = `${text}Título: *${music.title}*\n`;
+          text = `${text}Title: *${music.title}*\n`;
         }
         if (music.album) {
-          text = `${text}Álbum: *${music.album}*\n`;
+          text = `${text}Album: *${music.album}*\n`;
         }
         content = [new TextContent(text)];
         if (music.deezer && music.deezer.picture) {
@@ -36,7 +36,7 @@ const webhook = new WebhookController({
           content.push(new FileContent(music.deezer.preview, 'audio/mpeg'));
         }
       } else {
-        content = [new TextContent('Não foi possível identificar a música do áudio.')];
+        content = [new TextContent('Could not identify the music from the audio.')];
       }
     }
 
