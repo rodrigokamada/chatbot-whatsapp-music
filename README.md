@@ -2,7 +2,7 @@
 
 Example application using [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript) and [Node.js](https://nodejs.org/) where a simple chatbot will be implemented using the [Zenvia](https://www.zenvia.com/) platform to integrate with WhatsApp and the [AudD](https://audd.io/) platform to integrate with music recognize in order to test some WhatsApp Business API features such as sending and receiving text and file (image and audio) messages.
 
-This tutorial was posted on my [blog](https://rodrigo.kamada.com.br/blog/como-construir-um-chatbot-de-reconhecimento-de-musica-no-canal-whatsapp-usando-nodejs) in portuguese.
+This tutorial was posted on my [blog](https://rodrigo.kamada.com.br/blog/como-construir-um-chatbot-de-reconhecimento-de-musica-no-canal-whatsapp-usando-nodejs) in portuguese and on the [DEV Community](https://dev.to/rodrigokamada/how-to-build-a-music-recognition-chatbot-on-whatsapp-channel-using-nodejs-bpa) in english.
 
 
 
